@@ -1,0 +1,431 @@
+/* header start */
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+.fix-size-container {
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.fix-size-container:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-header nav {
+    margin: 0 auto;
+}
+
+.nav-header ul:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.nav-header li {
+    float: left;
+}
+
+.nav-header a {
+    line-height: 16px;
+}
+
+.top-nav nav {
+    padding: 17px 0;
+    width: 447px;
+}
+
+.top-nav li ~ li {
+    margin-left: 30px;
+}
+
+.top-nav a {
+    color: #333;
+}
+
+.bottom-nav {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.bottom-nav nav {
+    width: 675px;
+}
+
+.bottom-nav a {
+    font-size: 16px;
+    color: #000;
+}
+
+.bottom-nav li ~ li {
+    margin-left: 40px;
+}
+
+/* header finich */
+
+/* header logo start */
+
+.section-logo {
+    background-color: #fff;
+}
+
+.logo {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.section-logo ul {
+    float: left;
+    padding: 40px 0;
+}
+
+.section-logo li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.section-logo li a {
+    border: 2px solid #F13C6E;
+    border-radius: 45px;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+
+.section-logo li img {
+    margin: 0 auto;
+}
+
+.section-logo .pull-right {
+    padding: 40px 0;
+}
+
+.pull-right {
+    font-family: "Roboto-Regular"; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    float: right;
+}
+
+.pull-right a {
+    padding: 50px 0;
+}
+
+.btn-call {
+    margin-left: 40px;
+}
+
+.btn {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 13px 27px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #EFEFEF;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(../images/Rectangle_2.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50% 100%;
+    padding: 192px 0;
+}
+
+.title {
+    font-family: "Roboto-Bold";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.info-text {
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+    margin-bottom: 50px;
+    width: 308px;
+}
+
+.button {
+    width: 170px;
+    height: 40px;
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 40px;
+}
+ 
+/* header logo finich */
+
+/* main start */
+
+.project-list {
+   padding: 80px 0;
+}
+
+.project-list h2 {
+    font-family: "Roboto-Bold";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 38px;
+}
+
+.col-4::after,
+.col-2::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.col-4 .col {
+    float: left;
+    width: 255px;
+}
+
+.card {
+    padding: 25px 30px;
+    background: #fff;
+    text-align: center;
+}
+
+.card ~ .card,
+.rose-card ~ .rose-card,
+.col ~ .col {
+    margin-left: 30px;
+}
+
+.card img {
+    margin: 0 auto 20px;
+}
+
+.card h3 {
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background: #F13C6E;
+    border-radius: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 9px 40px;
+}
+
+.rose-card {
+    background: #F13C6E;
+    width: 540px;
+    float: left;
+    color: #fff;
+    padding: 35px 45px;
+    padding-left: 40px;
+}
+
+.rose-card .content {
+    float: left;
+    width: 250px;
+}
+
+.rose-card h3 {
+    font-family: "Roboto-Bold";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.rose-card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px; 
+}
+
+.rose-card input {
+    border-radius: 30px;
+    border: none;
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+    padding: 9px 25px;
+}
+
+.rose-card input::placeholder {
+    color: #C4C4C4;
+}
+
+.rose-card button {
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 7px 29px;
+}
+
+.rose-card .picture {
+    float: right;
+}
+
+.rose-card::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.rose-card:last-child .picture {
+    padding-top: 23px;
+}
+
+.table {
+    background: #fff;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.table td {
+    border: 1px solid #EFEFEF;
+    padding: 35px 65px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* main finish */
+/* footer start */
+
+footer {
+    background: #fff;
+    padding-top: 60px;
+}
+
+footer h2 {
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    margin-bottom: 30px;
+    width: 99px;
+}
+
+footer .col hr {
+    margin-bottom: 25px;
+}
+
+footer li {
+    font-size: 12px;
+    line-height: 1.2;
+    color: #828282;
+    margin-bottom: 10px;
+}
+
+footer > hr {
+    margin-top: 60px;
+}
+
+footer li .youtube, 
+footer li .vk {
+    margin-top: 12px;
+}
+
+footer li .facebook {
+    margin-top: 11px;
+}
+
+footer li .instagram {
+    margin-top: 9px;
+}
+
+.copy-rihgt {
+    background: #EFEFEF;
+    padding: 25px 0;
+}
+
+.aside {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.aside:first-child {
+    float: left;
+}
+
+.aside:last-child {
+    float: right;
+}
+
+/* footer finich */
+
